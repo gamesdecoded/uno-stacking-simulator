@@ -1,0 +1,102 @@
+{
+  "_regression": {
+    "arm": "stageB_stacker_vs_passers_ON_same",
+    "seed": 50100,
+    "match": true,
+    "match_wins": [
+      15983,
+      10508,
+      12493,
+      11016
+    ],
+    "rounds_total": 398478,
+    "turns_total": 24875066
+  },
+  "armA_refuser_vs_stackers": {
+    "n_matches": 50000,
+    "match_wins": [
+      8413,
+      14517,
+      13257,
+      13813
+    ],
+    "match_win_rate": [
+      0.16826,
+      0.29034,
+      0.26514,
+      0.27626
+    ],
+    "round_wins": [
+      87612,
+      105045,
+      101988,
+      103113
+    ],
+    "round_win_rate": [
+      0.22026458298764576,
+      0.2640927398066161,
+      0.2564071621438161,
+      0.25923551506192205
+    ],
+    "rounds_total": 397758,
+    "turns_total": 24738473,
+    "mean_rounds_per_match": 7.95516,
+    "mean_turns_per_match": 494.76946,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 11619,
+    "test_bot_match_win_ci95": [
+      0.16498,
+      0.17154
+    ],
+    "share_sums_to_n_matches": true
+  },
+  "armB_combo_action_dumper_stacker": {
+    "n_matches": 50000,
+    "match_wins": [
+      14231,
+      10864,
+      12716,
+      12189
+    ],
+    "match_win_rate": [
+      0.28462,
+      0.21728,
+      0.25432,
+      0.24378
+    ],
+    "round_wins": [
+      105815,
+      100586,
+      105290,
+      104343
+    ],
+    "round_win_rate": [
+      0.2543421931861338,
+      0.24177350889590754,
+      0.2530802770927376,
+      0.250804020825221
+    ],
+    "rounds_total": 416034,
+    "turns_total": 26098437,
+    "mean_rounds_per_match": 8.32068,
+    "mean_turns_per_match": 521.96874,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 14897,
+    "test_bot_match_win_ci95": [
+      0.28066,
+      0.28858
+    ],
+    "share_sums_to_n_matches": true
+  },
+  "_meta": {
+    "n_matches_per_arm": 50000,
+    "total_matches": 100000,
+    "total_rounds": 813792,
+    "elapsed_s": 301.8,
+    "stacking": "same-symbol only (Draw Two on Draw Two, Draw Four on Draw Four)",
+    "ci_method": "normal approximation, same as production/confirmation",
+    "note": "total_rounds excludes the regression rerun (398,478 rounds); new arms only. Regression is a check, not a quoted arm."
+  }
+}

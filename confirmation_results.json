@@ -1,0 +1,122 @@
+{
+  "confirm_true_bluffer_off": {
+    "n_matches": 50000,
+    "match_wins": [
+      7364,
+      13290,
+      14516,
+      14830
+    ],
+    "match_win_rate": [
+      0.14728,
+      0.2658,
+      0.29032,
+      0.2966
+    ],
+    "round_wins": [
+      83153,
+      105128,
+      107283,
+      109040
+    ],
+    "round_win_rate": [
+      0.20551699933762393,
+      0.25982936402012835,
+      0.26515555951003944,
+      0.2694980771322083
+    ],
+    "rounds_total": 404604,
+    "turns_total": 27170753,
+    "mean_rounds_per_match": 8.09208,
+    "mean_turns_per_match": 543.41506,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 9835,
+    "test_bot_match_win_ci95": [
+      0.14417,
+      0.15039
+    ]
+  },
+  "confirm_true_bluffer_challenge_always": {
+    "n_matches": 50000,
+    "match_wins": [
+      4904,
+      15989,
+      13994,
+      15113
+    ],
+    "match_win_rate": [
+      0.09808,
+      0.31978,
+      0.27988,
+      0.30226
+    ],
+    "round_wins": [
+      71990,
+      110511,
+      105367,
+      107852
+    ],
+    "round_win_rate": [
+      0.18192156069948448,
+      0.27926564237339535,
+      0.2662665521075508,
+      0.2725462448195694
+    ],
+    "rounds_total": 395720,
+    "turns_total": 26475060,
+    "mean_rounds_per_match": 7.9144,
+    "mean_turns_per_match": 529.5012,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 10350,
+    "test_bot_match_win_ci95": [
+      0.09547,
+      0.10069
+    ]
+  },
+  "confirm_true_revenge_off": {
+    "n_matches": 50000,
+    "match_wins": [
+      13646,
+      11290,
+      13531,
+      11533
+    ],
+    "match_win_rate": [
+      0.27292,
+      0.2258,
+      0.27062,
+      0.23066
+    ],
+    "round_wins": [
+      104051,
+      99333,
+      105572,
+      99820
+    ],
+    "round_win_rate": [
+      0.2545428303031489,
+      0.24300105681351156,
+      0.2582636945417539,
+      0.24419241834158562
+    ],
+    "rounds_total": 408776,
+    "turns_total": 26041258,
+    "mean_rounds_per_match": 8.17552,
+    "mean_turns_per_match": 520.82516,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 8223,
+    "test_bot_match_win_ci95": [
+      0.26902,
+      0.27682
+    ]
+  },
+  "_meta": {
+    "n_matches_per_arm": 50000,
+    "total_matches": 150000,
+    "total_rounds": 1209100,
+    "elapsed_s": 1265.3
+  }
+}

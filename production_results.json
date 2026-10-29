@@ -1,0 +1,738 @@
+{
+  "stageA_sensible_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      12383,
+      12631,
+      12625,
+      12361
+    ],
+    "match_win_rate": [
+      0.24766,
+      0.25262,
+      0.2525,
+      0.24722
+    ],
+    "round_wins": [
+      99532,
+      99786,
+      99823,
+      99158
+    ],
+    "round_win_rate": [
+      0.24989266857310713,
+      0.25053038044283316,
+      0.25062327547897434,
+      0.24895367550508538
+    ],
+    "rounds_total": 398299,
+    "turns_total": 24949519,
+    "mean_rounds_per_match": 7.96598,
+    "mean_turns_per_match": 498.99038,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7743,
+    "match_win_ci95": [
+      [
+        0.24388,
+        0.25144
+      ],
+      [
+        0.24881,
+        0.25643
+      ],
+      [
+        0.24869,
+        0.25631
+      ],
+      [
+        0.24344,
+        0.251
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.24388,
+      0.25144
+    ]
+  },
+  "stageA_random_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      2295,
+      14194,
+      17567,
+      15944
+    ],
+    "match_win_rate": [
+      0.0459,
+      0.28388,
+      0.35134,
+      0.31888
+    ],
+    "round_wins": [
+      51158,
+      110703,
+      117886,
+      115122
+    ],
+    "round_win_rate": [
+      0.1295568910195533,
+      0.280353737568662,
+      0.29854458060774586,
+      0.29154479080403883
+    ],
+    "rounds_total": 394869,
+    "turns_total": 30459572,
+    "mean_rounds_per_match": 7.89738,
+    "mean_turns_per_match": 609.19144,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 12056,
+    "match_win_ci95": [
+      [
+        0.04407,
+        0.04773
+      ],
+      [
+        0.27993,
+        0.28783
+      ],
+      [
+        0.34716,
+        0.35552
+      ],
+      [
+        0.31479,
+        0.32297
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.04407,
+      0.04773
+    ]
+  },
+  "stageA_wild_spender_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      7432,
+      13821,
+      14718,
+      14029
+    ],
+    "match_win_rate": [
+      0.14864,
+      0.27642,
+      0.29436,
+      0.28058
+    ],
+    "round_wins": [
+      77840,
+      106461,
+      108171,
+      107100
+    ],
+    "round_win_rate": [
+      0.19480844503618872,
+      0.2664375882193947,
+      0.2707171673690849,
+      0.2680367993753316
+    ],
+    "rounds_total": 399572,
+    "turns_total": 27416875,
+    "mean_rounds_per_match": 7.99144,
+    "mean_turns_per_match": 548.3375,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 8956,
+    "match_win_ci95": [
+      [
+        0.14552,
+        0.15176
+      ],
+      [
+        0.2725,
+        0.28034
+      ],
+      [
+        0.29037,
+        0.29835
+      ],
+      [
+        0.27664,
+        0.28452
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.14552,
+      0.15176
+    ]
+  },
+  "stageA_wrong_colour_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      1758,
+      16640,
+      15024,
+      16578
+    ],
+    "match_win_rate": [
+      0.03516,
+      0.3328,
+      0.30048,
+      0.33156
+    ],
+    "round_wins": [
+      46152,
+      112243,
+      107068,
+      111760
+    ],
+    "round_win_rate": [
+      0.12234672859290129,
+      0.2975507856095731,
+      0.28383210991906643,
+      0.29627037587845917
+    ],
+    "rounds_total": 377223,
+    "turns_total": 32217660,
+    "mean_rounds_per_match": 7.54446,
+    "mean_turns_per_match": 644.3532,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 14492,
+    "match_win_ci95": [
+      [
+        0.03355,
+        0.03677
+      ],
+      [
+        0.32867,
+        0.33693
+      ],
+      [
+        0.29646,
+        0.3045
+      ],
+      [
+        0.32743,
+        0.33569
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.03355,
+      0.03677
+    ]
+  },
+  "stageA_draw_keeper_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      10739,
+      13678,
+      12203,
+      13380
+    ],
+    "match_win_rate": [
+      0.21478,
+      0.27356,
+      0.24406,
+      0.2676
+    ],
+    "round_wins": [
+      93381,
+      101891,
+      98076,
+      101043
+    ],
+    "round_win_rate": [
+      0.23677264440618573,
+      0.2583502159024927,
+      0.24867707427400726,
+      0.25620006541731427
+    ],
+    "rounds_total": 394391,
+    "turns_total": 25117574,
+    "mean_rounds_per_match": 7.88782,
+    "mean_turns_per_match": 502.35148,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7793,
+    "match_win_ci95": [
+      [
+        0.21118,
+        0.21838
+      ],
+      [
+        0.26965,
+        0.27747
+      ],
+      [
+        0.2403,
+        0.24782
+      ],
+      [
+        0.26372,
+        0.27148
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.21118,
+      0.21838
+    ]
+  },
+  "stageA_bluffer_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      12785,
+      12175,
+      12635,
+      12405
+    ],
+    "match_win_rate": [
+      0.2557,
+      0.2435,
+      0.2527,
+      0.2481
+    ],
+    "round_wins": [
+      99631,
+      98548,
+      99853,
+      99072
+    ],
+    "round_win_rate": [
+      0.2508939723598856,
+      0.24816672710423465,
+      0.251453019863814,
+      0.24948628067206577
+    ],
+    "rounds_total": 397104,
+    "turns_total": 24872132,
+    "mean_rounds_per_match": 7.94208,
+    "mean_turns_per_match": 497.44264,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7652,
+    "match_win_ci95": [
+      [
+        0.25188,
+        0.25952
+      ],
+      [
+        0.23974,
+        0.24726
+      ],
+      [
+        0.24889,
+        0.25651
+      ],
+      [
+        0.24431,
+        0.25189
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.25188,
+      0.25952
+    ]
+  },
+  "stageA_revenge_saver_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      12241,
+      13139,
+      12173,
+      12447
+    ],
+    "match_win_rate": [
+      0.24482,
+      0.26278,
+      0.24346,
+      0.24894
+    ],
+    "round_wins": [
+      98145,
+      99967,
+      98075,
+      98243
+    ],
+    "round_win_rate": [
+      0.24882742184925083,
+      0.25344674593717514,
+      0.24864995056156985,
+      0.24907588165200414
+    ],
+    "rounds_total": 394430,
+    "turns_total": 24675346,
+    "mean_rounds_per_match": 7.8886,
+    "mean_turns_per_match": 493.50692,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7637,
+    "match_win_ci95": [
+      [
+        0.24105,
+        0.24859
+      ],
+      [
+        0.25892,
+        0.26664
+      ],
+      [
+        0.2397,
+        0.24722
+      ],
+      [
+        0.24515,
+        0.25273
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.24105,
+      0.24859
+    ]
+  },
+  "stageA_action_dumper_vs_sensible_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      15154,
+      9931,
+      13395,
+      11520
+    ],
+    "match_win_rate": [
+      0.30308,
+      0.19862,
+      0.2679,
+      0.2304
+    ],
+    "round_wins": [
+      108169,
+      96608,
+      105799,
+      101245
+    ],
+    "round_win_rate": [
+      0.2626602334509411,
+      0.23458735712846115,
+      0.25690530594602995,
+      0.24584710347456784
+    ],
+    "rounds_total": 411821,
+    "turns_total": 26043200,
+    "mean_rounds_per_match": 8.23642,
+    "mean_turns_per_match": 520.864,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 8776,
+    "match_win_ci95": [
+      [
+        0.29905,
+        0.30711
+      ],
+      [
+        0.19512,
+        0.20212
+      ],
+      [
+        0.26402,
+        0.27178
+      ],
+      [
+        0.22671,
+        0.23409
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.29905,
+      0.30711
+    ]
+  },
+  "stageB_stacker_vs_passers_ON_same": {
+    "n_matches": 50000,
+    "match_wins": [
+      15983,
+      10508,
+      12493,
+      11016
+    ],
+    "match_win_rate": [
+      0.31966,
+      0.21016,
+      0.24986,
+      0.22032
+    ],
+    "round_wins": [
+      109188,
+      94414,
+      99109,
+      95767
+    ],
+    "round_win_rate": [
+      0.27401261801153387,
+      0.2369365435482009,
+      0.24871887532059486,
+      0.24033196311967034
+    ],
+    "rounds_total": 398478,
+    "turns_total": 24875066,
+    "mean_rounds_per_match": 7.96956,
+    "mean_turns_per_match": 497.50132,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 8974,
+    "match_win_ci95": [
+      [
+        0.31557,
+        0.32375
+      ],
+      [
+        0.20659,
+        0.21373
+      ],
+      [
+        0.24607,
+        0.25365
+      ],
+      [
+        0.21669,
+        0.22395
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.31557,
+      0.32375
+    ]
+  },
+  "stageB_stacker_vs_passers_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      12593,
+      12503,
+      12514,
+      12390
+    ],
+    "match_win_rate": [
+      0.25186,
+      0.25006,
+      0.25028,
+      0.2478
+    ],
+    "round_wins": [
+      100000,
+      99490,
+      99547,
+      99353
+    ],
+    "round_win_rate": [
+      0.2510103165240091,
+      0.24973016390973668,
+      0.24987323979015538,
+      0.24938627977609878
+    ],
+    "rounds_total": 398390,
+    "turns_total": 24913789,
+    "mean_rounds_per_match": 7.9678,
+    "mean_turns_per_match": 498.27578,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7744,
+    "match_win_ci95": [
+      [
+        0.24806,
+        0.25566
+      ],
+      [
+        0.24626,
+        0.25386
+      ],
+      [
+        0.24648,
+        0.25408
+      ],
+      [
+        0.24402,
+        0.25158
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.24806,
+      0.25566
+    ]
+  },
+  "stageB_symmetric_ON_same": {
+    "n_matches": 50000,
+    "match_wins": [
+      12680,
+      12303,
+      12452,
+      12565
+    ],
+    "match_win_rate": [
+      0.2536,
+      0.24606,
+      0.24904,
+      0.2513
+    ],
+    "round_wins": [
+      100513,
+      99614,
+      100025,
+      100532
+    ],
+    "round_win_rate": [
+      0.25085354044583763,
+      0.24860987711014165,
+      0.24963562308452547,
+      0.25090095935949525
+    ],
+    "rounds_total": 400684,
+    "turns_total": 24879823,
+    "mean_rounds_per_match": 8.01368,
+    "mean_turns_per_match": 497.59646,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 13521,
+    "match_win_ci95": [
+      [
+        0.24979,
+        0.25741
+      ],
+      [
+        0.24228,
+        0.24984
+      ],
+      [
+        0.24525,
+        0.25283
+      ],
+      [
+        0.2475,
+        0.2551
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.24979,
+      0.25741
+    ]
+  },
+  "stageB_symmetric_OFF": {
+    "n_matches": 50000,
+    "match_wins": [
+      12543,
+      12473,
+      12490,
+      12494
+    ],
+    "match_win_rate": [
+      0.25086,
+      0.24946,
+      0.2498,
+      0.24988
+    ],
+    "round_wins": [
+      99764,
+      99492,
+      99882,
+      100006
+    ],
+    "round_win_rate": [
+      0.24994488204758183,
+      0.2492634237267753,
+      0.25024051470146114,
+      0.25055117952418177
+    ],
+    "rounds_total": 399144,
+    "turns_total": 24985746,
+    "mean_rounds_per_match": 7.98288,
+    "mean_turns_per_match": 499.71492,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7979,
+    "match_win_ci95": [
+      [
+        0.24706,
+        0.25466
+      ],
+      [
+        0.24567,
+        0.25325
+      ],
+      [
+        0.24601,
+        0.25359
+      ],
+      [
+        0.24609,
+        0.25367
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.24706,
+      0.25466
+    ]
+  },
+  "stageA_bluffer_vs_sensible_challenge_always": {
+    "n_matches": 50000,
+    "match_wins": [
+      12987,
+      12229,
+      12348,
+      12436
+    ],
+    "match_win_rate": [
+      0.25974,
+      0.24458,
+      0.24696,
+      0.24872
+    ],
+    "round_wins": [
+      100252,
+      98666,
+      98937,
+      99099
+    ],
+    "round_win_rate": [
+      0.2525531925613547,
+      0.2485577673987414,
+      0.2492404661497302,
+      0.24964857389017367
+    ],
+    "rounds_total": 396954,
+    "turns_total": 24882263,
+    "mean_rounds_per_match": 7.93908,
+    "mean_turns_per_match": 497.64526,
+    "capped_matches": 0,
+    "capped_rounds": 0,
+    "comeback_rounds": 7687,
+    "match_win_ci95": [
+      [
+        0.2559,
+        0.26358
+      ],
+      [
+        0.24081,
+        0.24835
+      ],
+      [
+        0.24318,
+        0.25074
+      ],
+      [
+        0.24493,
+        0.25251
+      ]
+    ],
+    "test_bot_match_win_ci95": [
+      0.2559,
+      0.26358
+    ]
+  },
+  "_meta": {
+    "n_matches_per_arm": 50000,
+    "n_arms": 13,
+    "total_matches": 650000,
+    "total_rounds": 5161359,
+    "elapsed_s": 1974.7,
+    "note": "Production results. Match win CI is formal (independent matches); round win rate is descriptive only."
+  }
+}
