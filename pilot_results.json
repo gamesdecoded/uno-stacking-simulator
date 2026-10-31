@@ -441,7 +441,7 @@
     "capped_rounds": 0,
     "comeback_rounds": 123
   },
-  "_pilot_meta": {
+  "_pilot_info": {
     "n_matches_per_arm": 1000,
     "elapsed_s": 57.7,
     "note": "PILOT ONLY, not production results. CIs at n=1000 are ~+/-0.03."

@@ -113,7 +113,7 @@
       0.27682
     ]
   },
-  "_meta": {
+  "_info": {
     "n_matches_per_arm": 50000,
     "total_matches": 150000,
     "total_rounds": 1209100,

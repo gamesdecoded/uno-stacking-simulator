@@ -727,7 +727,7 @@
       0.26358
     ]
   },
-  "_meta": {
+  "_info": {
     "n_matches_per_arm": 50000,
     "n_arms": 13,
     "total_matches": 650000,

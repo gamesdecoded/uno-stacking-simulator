@@ -52,7 +52,7 @@ arm("stageB_symmetric_OFF",
 arm("stageA_bluffer_vs_sensible_challenge_always",
     [Bot("bluffer")] + [S()] * 3, stacking="off", challenge="always", seed=4000)
 
-out["_pilot_meta"] = {
+out["_pilot_info"] = {
     "n_matches_per_arm": N,
     "elapsed_s": round(time.time() - t0, 1),
     "note": "PILOT ONLY, not production results. CIs at n=1000 are ~+/-0.03.",

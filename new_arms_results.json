@@ -90,7 +90,7 @@
     ],
     "share_sums_to_n_matches": true
   },
-  "_meta": {
+  "_info": {
     "n_matches_per_arm": 50000,
     "total_matches": 100000,
     "total_rounds": 813792,

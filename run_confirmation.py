@@ -116,7 +116,7 @@ def main():
             f"capped {r['capped_matches']}/{r['capped_rounds']} in {time.time() - t0:.0f}s")
     total = sum(v["n_matches"] for v in done.values() if isinstance(v, dict) and "n_matches" in v)
     rounds = sum(v["rounds_total"] for v in done.values() if isinstance(v, dict) and "rounds_total" in v)
-    done["_meta"] = {"n_matches_per_arm": N, "total_matches": total, "total_rounds": rounds,
+    done["_info"] = {"n_matches_per_arm": N, "total_matches": total, "total_rounds": rounds,
                      "elapsed_s": round(time.time() - t_start, 1)}
     with open(OUT, "w") as f:
         json.dump(done, f, indent=2)

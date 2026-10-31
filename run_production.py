@@ -90,7 +90,7 @@ def main():
     total_rounds = sum(
         v["rounds_total"] for v in done.values() if isinstance(v, dict) and "rounds_total" in v
     )
-    done["_meta"] = {
+    done["_info"] = {
         "n_matches_per_arm": N,
         "n_arms": len(ARMS),
         "total_matches": total_matches,
